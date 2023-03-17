@@ -18,8 +18,8 @@
     "postversion": "git push && git push --tags",
     "start": "node ./lib/tests/example.js",
     "dev": "nodemon",
-    "lint": "eslint \"**/*.{ts,tsx}\"",
-    "fix": "eslint \"**/*.{ts,tsx}\" --fix"
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "fix": "eslint \"src/**/*.{ts,tsx}\" --fix"
   },
   "repository": {
     "type": "git",
