@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 
-import { getAverageSchemaFromArray } from '../index.js';
+import { getAverageSchemaFromArray } from '../../index';
 
 const data = [
   { user: 'string', age: 1 },

@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import * as _ from 'lodash';
 
 export const checkIsJSON = (data: any): data is string => {
   if (!_.isString(data)) return false;

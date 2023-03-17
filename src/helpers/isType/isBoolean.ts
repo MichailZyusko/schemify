@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import * as _ from 'lodash';
 
 export const checkIsBoolean = (data: any): data is boolean => {
   if (_.isBoolean(data)) {

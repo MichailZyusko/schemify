@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import * as _ from 'lodash';
 
 export const checkIsObject = (data: any): data is object => {
   if (_.isPlainObject(data)) {

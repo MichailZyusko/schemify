@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import * as _ from 'lodash';
 
 export const checkIsDate = (data: any): data is Date => {
   if (_.isDate(data)) {
