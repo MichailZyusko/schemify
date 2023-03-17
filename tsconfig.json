@@ -4,6 +4,7 @@
     "lib": [
       "ESNext"
     ],
+    "declaration": true,
     "module": "NodeNext",
     "rootDir": "./src",
     "resolveJsonModule": true,

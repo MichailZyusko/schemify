@@ -4,10 +4,19 @@
   "description": "This project is designed to create schemas for complex data types in JS",
   "main": "index.js",
   "type": "module",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf lib && npx tsc",
-    "start": "node ./lib/index.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
+    "start": "node ./lib/tests/example.js",
     "dev": "nodemon",
     "lint": "eslint \"**/*.{ts,tsx}\"",
     "fix": "eslint \"**/*.{ts,tsx}\" --fix"

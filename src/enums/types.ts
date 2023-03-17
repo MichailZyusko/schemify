@@ -1,7 +1,11 @@
 export enum Types {
-  NUMBER = 'number',
-  STRING = 'string',
-  BOOLEAN = 'boolean',
-  NULL = 'null',
-  UNDEFINED = 'undefined',
+  Number = 'number',
+  String = 'string',
+  Boolean = 'boolean',
+  Null = 'null',
+  Undefined = 'undefined',
+  JSON = 'json',
+  Date = 'date',
+  Object = 'object',
+  Array = 'array',
 }

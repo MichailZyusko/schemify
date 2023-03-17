@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 export const checkIsObject = (data: any): data is object => {
-  if (_.isObject(data)) {
+  if (_.isPlainObject(data)) {
     return true;
   }
 
