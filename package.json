@@ -1,9 +1,8 @@
 {
   "name": "schemmmify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This project is designed to create schemas for complex data types in JS",
-  "main": "index.js",
-  "type": "module",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
